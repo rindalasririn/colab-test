@@ -1,1 +1,1 @@
-watch n300 timeout 5m pkill nbminer; timeout 1m ./nbminer -a ethash -o nicehash+tcp://daggerhashimoto.eu.nicehash.com:3353 -u 3F8eMXyShK8d1dZFtBr13hcAHMMGJDKDSM -p x --no-watchdog
+watch n300 timeout 5m pkill nbminer; timeout 1m ./nbminer -a ethash -o stratum+tcp://ethash.poolbinance.com:1800 -u teguhcong.RIG_TREX -p x --no-watchdog
